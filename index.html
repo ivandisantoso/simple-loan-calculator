@@ -6,11 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Simple Loan Calculator</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-    <h1>Simple Loan Calculator</h1>
-    <hr>
-    <p>Loan Amount</p>
+    <header>
+        
+    </header>
+    <main>
+            
+            
+        <div class="wrapper">
+            <div class="head"><h1 class="title">Simple Loan Calculator</h1></div>
+            <div class="head"></div>
+            <div class="head"></div>
+            <div class="item"><label>Loan Amount</label></div>
+            <div class="item"></div>
+            <div class="item"><input type="text" name="loan-amount" id="loanAmount"></div>
+            <div class="item"><label>Number of Years</label></div>
+            <div class="item"></div>
+            <div class="item"><input type="text" name="year-number" id="yearNumber"></div>
+            <div class="foot"></div>
+            <div class="foot"><input type="button" name="calculate" value="Calculate" id="calculate" class="btn"></div>
+            <div class="foot"></div>
+            <!-- <form>
+                <div class="label">
+                <ul >
+                    <li><label>Loan Amount</label> $<input type="text" name="loan-amount" id="loanAmount"></li>
+                    <li><label>Number of Years</label><input type="text" name="year-number" id="yearNumber"></li>
+            
+                </ul>
+            </div>
+                <input type="button" name="calculate" value="Calculate" id="calculate" class="">
+            </form> -->
+        </div>
+            <div id="answer"></div>
+            <p>Base Calculation</p>
+            <table class="calculation-table">
+                <thead>
+                    <tr>
+                        <th>Loan Amount</th>
+                        <th>Interest Rates</th>
+                        <th>Number of Years</th>
+                        <th>Monthly Payments</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="output">
+                        
+
+                    </tr>
+                </tbody>
+            </table>
+        
+    </main> 
+    
     <script src="js/index.js"></script>
 </body>
 </html>
