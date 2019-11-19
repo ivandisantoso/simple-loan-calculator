@@ -37,10 +37,11 @@ function calculateLoan()
     Substract ${subtrct} <br>
     Multiply ${usrMnthlyIntrst}<br>
     User Monthly Installment ${usrMnthlyInstll1}`;
-
-
     
 }
+
+
+
 button.addEventListener(`click`,calculateLoan);
 // function writeOutputToDocument( result ) {
 //   document.getElementById(`output`).innerHTML += `<th>${result}</th>`;

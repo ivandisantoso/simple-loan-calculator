@@ -10,24 +10,24 @@ text-align: center;
 }
 
 .item{
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     grid-column: span;
 }
 
 .head{
     grid-column: span;
-    background-color: blue;
+    background-color:lightskyblue
 }
 
 .foot{
     text-align: center;
     grid-column: span;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
-.item:nth-child(even){
+/* .item:nth-child(even){
     background-color: cadetblue;
-}
+} */
 
 .wrapper{
     padding: 20px 20px;
